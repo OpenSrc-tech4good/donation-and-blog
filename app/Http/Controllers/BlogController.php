@@ -17,9 +17,9 @@ class BlogController extends Controller
         $id=1;
         return redirect('/blog/'.$id); // bring to read controller
     }
-    public function read()
+    public function read($id)
     {
-        return view('blog.read', ['data'=>'Based off id fed to db']);
+        return view('blog.read', ['data'=>\App\blog::find($id)]);
     }
     public function update()
     {
