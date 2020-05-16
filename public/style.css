@@ -26,14 +26,12 @@
     color: white;
     font-weight: 900;
 }
-.jumbotron{
+.jumbotron .spec{
     padding-top: 120px;
     padding-bottom: 120px;
     color: white;
     background-color: rgb(40,40,40);
     border-radius: 0;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
 }
 .b-space{
     margin-bottom: 42px;

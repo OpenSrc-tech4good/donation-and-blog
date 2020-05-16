@@ -14,11 +14,11 @@
             <a href="#cause">Our Cause</a>
             <a href="#donation">Your Donation</a>
             <a href="#progress">Progress</a>
-            <a href="/blog">Progress</a>
+            <a href="/blog">Blog</a>
             <a href="#contact">Contact</a>
         </div>
     </div>
-    <div class="jumbotron text-center">
+    <div class="jumbotron spec text-center">
         <div class="container">
             <h2 id="cause">Our Cause</h2>
             <hr>
