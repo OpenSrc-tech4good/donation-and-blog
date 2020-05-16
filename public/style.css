@@ -1,0 +1,76 @@
+.navbar{
+    padding: 23px;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: rgb(40,40,40);
+    color: white;
+}
+.navbar .left-side .right-side{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+.navbar .left-side{
+    left: 0;
+}
+.navbar .right-side{
+    right: 0;
+}
+.navbar .right-side a{
+    margin-left: 17px;
+    color: white;
+    text-decoration: none;
+}
+.navbar .left-side a{
+    color: white;
+    font-weight: 900;
+}
+.jumbotron{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: white;
+    background-color: rgb(40,40,40);
+    border-radius: 0;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.b-space{
+    margin-bottom: 42px;
+}
+.prog-bar{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(240,240,240);
+}
+.prog-bar .prog{
+    height: 100%;
+    width: 23%;
+    background-color: rgb(10,10,10);
+}
+button{
+    padding: 7px;
+    padding-top: 4;
+    padding-bottom: 4;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 200px;
+    color: white;
+}
+hr{
+    background-color: transparent;
+    border-bottom: 8px solid rgb(200,200,200);
+}
+html, body{
+    scroll-behavior: smooth;
+}
+.darki{
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background-color: rgb(40,40,40);
+    color: white;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
