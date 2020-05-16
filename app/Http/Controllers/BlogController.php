@@ -21,7 +21,7 @@ class BlogController extends Controller
     }
     public function read($id)
     {
-        return view('blog.read', ['data'=>\App\blog::find($id)]);
+        return view('blog.read', ['data'=>\App\blog::find($id), 'recents'=>\App\blog::get()]);
     }
     public function update()
     {

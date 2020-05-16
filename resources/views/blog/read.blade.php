@@ -26,6 +26,11 @@
             </div>
             <div class="col-12 col-md-5">
                 <h2>Recent Posts</h2>
+                @foreach($recents as $recent)
+                <a href="/blog/{{$recent->id}}">
+                <h2>{{ $recent->title }}</h2>
+                </a>
+                @endforeach
             </div>
         </div>
     </div>
