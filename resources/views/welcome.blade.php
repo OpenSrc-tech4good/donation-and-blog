@@ -73,12 +73,8 @@
             <div class="text-center">
                 <b>Phone</b>: +1 555-123-1234<br>
                 <b>Email</b>: <a href="mailto:mail@site123.com">mail@site123.com</a><br>
+                <p><a href="https://www.zanefinner.netlify.app/">zanefinner</a> &copy 2020</p>
             </div>
-        </div>
-        <div class="footer">
-
-            <p><a href="https://zanefinner.netlify.app" class="text-center">zanefinner</a> &copy 2020</p>
-
         </div>
     </div>
 </body>
