@@ -15,7 +15,7 @@ class BlogController extends Controller
         //add $req to db
         //generate id
         $id=1;
-        return redirect('/blog/'.$id) // bring to read controller
+        return redirect('/blog/'.$id); // bring to read controller
     }
     public function read()
     {
