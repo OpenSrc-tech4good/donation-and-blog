@@ -7,6 +7,15 @@
     <title>Blog</title>
 </head>
 <body>
-    Show blog overview
+    <div class="container">
+        @foreach ($data as $post)
+            <a href="blog/{{ $post->id }}/">
+                {{ $post->title }}
+                <br>
+            </a>
+        @endforeach
+    </div>
+    
+    {{ $data->links() }}
 </body>
 </html>

@@ -8,7 +8,9 @@ class BlogController extends Controller
 {
     public function index()
     {
-        return view('blog.index');
+        $data = \App\blog::paginate(9);
+
+        return view('blog.index', ['data' => $data]);
     }
     public function create(Request $req)
     {
