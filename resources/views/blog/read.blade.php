@@ -28,11 +28,12 @@
                 <h2>Recent Posts</h2>
                 @foreach($recents as $recent)
                 <a href="/blog/{{$recent->id}}">
-                <h2>{{ $recent->title }}</h2>
+                <h3>{{ $recent->title }}</h3>
                 </a>
                 @endforeach
             </div>
         </div>
     </div>
+    @include('partials.footer')
 </body>
 </html>
