@@ -25,7 +25,8 @@
             </a>
         @endforeach
     </div>
-    
+    <div class="bspace"></div>
     {{ $data->links() }}
+    @include('partials.footer')
 </body>
 </html>

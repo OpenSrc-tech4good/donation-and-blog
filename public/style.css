@@ -67,6 +67,7 @@ html, body{
     border-top-right-radius: 30%;
     background-color: rgb(40,40,40);
     color: white;
+    margin-bottom: -20px;
 }
 li{
     margin: 0;
@@ -83,6 +84,9 @@ li{
 }
 .footer a{
     color: white;
+}
+.bspace{
+    padding-bottom: 28px;
 }
 /* nav fix */ @media only screen and (max-width: 700px) {
     .navbar{

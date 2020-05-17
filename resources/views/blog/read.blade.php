@@ -16,7 +16,7 @@
             <p>Here you can find the top news for our cause</p>
         </div>
     </div>
-    <div class="container">
+    <div class="container bspace">
         <div class="row">
             <div class="col-12 col-md-7">
                 <h1>{{ $data->title }}</h1>
