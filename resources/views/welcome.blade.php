@@ -21,7 +21,7 @@
     <div class="jumbotron spec text-center">
         <div class="container">
             <h2 id="cause">Our Cause</h2>
-            <hr>
+            
             <p>Write what the problem you are adressing is and how it can be solved. This should lead up to an almost call-to-action-esqe link that leads to your funding site</p>
             <button href="#">Donate Today
             </button>
